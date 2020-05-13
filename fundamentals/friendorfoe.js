@@ -20,3 +20,8 @@ function friend(friends){
   }
   return frnd;
 }
+
+//best solution
+function friend(friends){
+    return friends.filter(n => typeof n === 'string' && n.length === 4);
+}
