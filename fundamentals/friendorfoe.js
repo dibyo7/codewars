@@ -10,7 +10,6 @@ i.e.
 friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 */
 
-```javascript
 function friend(friends){
   //your code here
   let frnd = [];
@@ -21,4 +20,3 @@ function friend(friends){
   }
   return frnd;
 }
-```
